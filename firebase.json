@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "gestion-commerce-reparation",
+          "appId": "1:839042477667:android:9791fa10e041b9125ad256",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "gestion-commerce-reparation",
+          "configurations": {
+            "android": "1:839042477667:android:9791fa10e041b9125ad256",
+            "web": "1:839042477667:web:d56291ab04584e7c5ad256",
+            "windows": "1:839042477667:web:25a30c371acb0a8f5ad256"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
